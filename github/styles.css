@@ -1,1 +1,35 @@
-/* Add your CSS here */
+nav #current-page {
+  color: black;
+}
+.maintext {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.low-left {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 40%;
+  float: left;
+}
+.low-right {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 40%;
+  float: right;
+}

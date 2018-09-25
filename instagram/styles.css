@@ -2,7 +2,7 @@ nav {
   position: absolute;
   float: left;
   width: 200px;
-  height: 100%;
+  height: auto;
   border: solid lightgray 1px;
   margin-right: 20px;
 }
