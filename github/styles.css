@@ -1,6 +1,9 @@
 nav #current-page {
   color: black;
 }
+body {
+  font-family: verdana;
+}
 .maintext {
   width: 500px;
   margin: 0 auto;
@@ -20,16 +23,21 @@ a {
 img {
   width: 100px;
   height: 100px;
-}
-.low-left {
-  box-sizing: border-box;
-  padding: 20px;
-  width: 40%;
   float: left;
 }
-.low-right {
+.low-left, .low-right {
   box-sizing: border-box;
-  padding: 20px;
-  width: 40%;
-  float: right;
+  position: relative;
+  padding: 30px;
+  width: 50%;
+  float: left;
+  font-size: 12px;
+}
+.low-left img, .low-right img {
+  margin: 10px;
+}
+.low-left p, .low-right p {
+  position: absolute;
+  margin: 15px;
+  left: 130px;
 }
