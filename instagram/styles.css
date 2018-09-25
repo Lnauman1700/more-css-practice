@@ -1,16 +1,29 @@
 nav {
+  top: 0;
+  left: 0;
   position: absolute;
-  float: left;
   width: 200px;
   height: auto;
   border: solid lightgray 1px;
-  margin-right: 20px;
+}
+html {
+  margin: 10px;
+  position: relative;
+}
+body {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 main {
   position: absolute;
-  float: right;
-  left: 250px;
+  top: 0;
+  left: 201px;
+  padding-left:20px;
   margin-right: 10px;
+  border: solid lightgray 1px;
 }
 ul {
   list-style: none;
