@@ -1,10 +1,29 @@
-
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: orange;
+  font-size: 40px;
+}
 h2 {
   padding-bottom: 5px;
   border-bottom: solid lightgray 1px;
+  margin-bottom: 5px;
+  font-size: 30px;
 }
 .selection {
+  box-sizing: border-box;
   position: relative;
-  display: block;
+  display: inline-block;
   width: 23%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.selection img {
+  margin-left: 10px;
+}
+.category-title {
+  display: block;
+  font-family: sans-serif;
+  text-decoration: none;
 }
