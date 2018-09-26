@@ -1,1 +1,72 @@
-/* Add your CSS here */
+h1 {
+  position: absolute;
+  color: white;
+  font-family: verdana;
+
+}
+header {
+  position: relative;
+  background-image: url(https://placekitten.com/400/300);
+  height: 100px;
+}
+label{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: verdana;
+}
+.wide-boi label{
+  display: block;
+}
+input {
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+}
+.small-boi, .wide-boi {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.small-boi {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 100%;
+  padding: 0;
+  background-color: coral;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+/*only potential remaining problem is the contents of the nav bar not taking up the full space of the page*/
+nav {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+h2 {
+  font-family: verdana;
+}
+.search {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 32%;
+  margin-left: 5px;
+  border: solid lightgray 1px;
+}
+.search p {
+  padding: 10px;
+}
+.nav-cat {
+  width: 100px;
+  height:80px;
+  float: left;
+}
