@@ -1,1 +1,10 @@
-/* Add your CSS here */
+
+h2 {
+  padding-bottom: 5px;
+  border-bottom: solid lightgray 1px;
+}
+.selection {
+  position: relative;
+  display: block;
+  width: 23%;
+}
